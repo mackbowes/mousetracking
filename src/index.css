@@ -10,4 +10,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  font-size: 1.25rem;
+  max-width: 75vw;
+  text-align: left;
+  background-color: gainsboro;
+  color: darkslategray !important; 
+  padding: 1rem;
+  border-radius: 1rem;
+  z-index: 2;
+}
+
+code::selection, code .comment::selection {
+  background-color: darkolivegreen;
+  color:ivory;
+}
+
+code .comment {
+  color: darkolivegreen;
 }
